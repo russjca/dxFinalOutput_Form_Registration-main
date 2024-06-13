@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.will-change-filter {
+  will-change: filter;
+}
+.transition-filter {
+  transition: filter 300ms;
+}
+
+* {
+  padding: 0;
+}
